@@ -1,0 +1,50 @@
+{
+  "name": "allo-font",
+  "version": "1.0.3",
+  "description": "Allo, your friendly neighborhood typeface: variable web fonts and CSS.",
+  "keywords": [
+    "font",
+    "typeface",
+    "variable font",
+    "woff2",
+    "sans-serif",
+    "allo"
+  ],
+  "homepage": "https://allo.joshpuckett.me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshpuckett/allo.git"
+  },
+  "bugs": "https://github.com/joshpuckett/allo/issues",
+  "license": "OFL-1.1",
+  "author": "Josh Puckett (https://joshpuckett.me)",
+  "files": [
+    "allo.css",
+    "allo-friendly.css",
+    "fonts/webfonts/AlloVariable.woff2",
+    "fonts/webfonts/AlloVariableFriendly.woff2",
+    "fonts/webfonts/Allo-ThinOblique.woff2",
+    "fonts/webfonts/Allo-ExtraLightOblique.woff2",
+    "fonts/webfonts/Allo-LightOblique.woff2",
+    "fonts/webfonts/Allo-Oblique.woff2",
+    "fonts/webfonts/Allo-MediumOblique.woff2",
+    "fonts/webfonts/Allo-SemiBoldOblique.woff2",
+    "fonts/webfonts/Allo-BoldOblique.woff2",
+    "fonts/webfonts/Allo-ExtraBoldOblique.woff2",
+    "fonts/webfonts/Allo-BlackOblique.woff2",
+    "OFL.txt"
+  ],
+  "style": "allo.css",
+  "main": "allo.css",
+  "exports": {
+    ".": "./allo.css",
+    "./allo.css": "./allo.css",
+    "./friendly": "./allo-friendly.css",
+    "./allo-friendly.css": "./allo-friendly.css",
+    "./fonts/*": "./fonts/*",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
